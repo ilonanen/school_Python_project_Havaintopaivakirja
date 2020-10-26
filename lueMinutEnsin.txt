@@ -1,0 +1,13 @@
+HAVAINTOPÄIVÄKIRJA
+versio 1.0
+© Ilona Engblom 2020
+
+Käyttääksesi ohjelmaa sinulla on oltava asennettuna Python 3.x ja siihen tkinter- ja pandas-moduulit. Tkinter asentuu nykyään automaattisesti Python 3.x:n mukana, pandas on asennettava erikseen esimerkiksi komentokehoitteessa komennolla pip install pandas. Pidä paivakirja.pyw- ja tiedosto.py-tiedostot samassa kansiossa.
+
+Windowsissa ohjelma käynnistyy tuplaklikkaamalla paivakirja.pyw-tiedostoa, muilla käyttöjärjestelmillä joudut käynnistämään sen python-tulkin kautta (ks. tulkin ohjeet).
+
+Ohjelma luo syöttämistäsi havainnoista .csv-tiedoston samaan kansioon kuin jossa ohjelmatiedostot ovat. Joka vuodelle luodaan vuosiluvun mukaan oma .csv-tiedosto. Sen liäsksi, että ohjelma käynnistyessään avaa ja sulkeutuessaan tallentaa tiedoston automaattisesti, se voidaan viedä mihin tahansa taulukkolaskentaohjelmaan analysointia, tarkastelua ja muokkausta varten.
+
+Havainnon päivämäärä on syötettävä ohjelmaan pp.kk.vvvv-muodossa, ja kaikki kentät on täytettävä. Ohjelma antaa syöttää saman lajin vain kerran samana vuonna.
+
+tiedosto.py-kirjaston moduulia Tiedosto voidaan käyttää minkä tahansa .csv-tiedoston lukemiseen ja palauttamiseen pandas-taulukkona ja pandas-taulukon kirjoittamiseen .csv-muotoon. Muut tämän paketin sisältämät moduulit ovat ohjelmakohtaisia.

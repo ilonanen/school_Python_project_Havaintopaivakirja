@@ -1,0 +1,7 @@
+
+*.DS_Store
+*.csv
+__pycache__/tiedosto.cpython-38.pyc
+._lueMinutEnsin.txt
+._tiedosto.py
+._paivakirja.pyw
